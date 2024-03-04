@@ -7,5 +7,5 @@ Implementei as camadas da arquitetura limpa
 -- Skills
 
 ## A documentação da API pode ser acessada através do Swagger. Certifique-se de ter o aplicativo em execução e, em seguida, vá até:
-[http://localhost:<porta>/swagger](http://localhost:5000/swagger)
+[http://localhost:porta/swagger](http://localhost:5000/swagger)
 

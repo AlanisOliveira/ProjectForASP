@@ -1,0 +1,17 @@
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\bin\Debug\net8.0\ProjectAPI.Infrastructure.deps.json
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\bin\Debug\net8.0\ProjectAPI.Infrastructure.runtimeconfig.json
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\bin\Debug\net8.0\ProjectAPI.Infrastructure.dll
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\bin\Debug\net8.0\ProjectAPI.Infrastructure.pdb
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\bin\Debug\net8.0\ProjectAPI.Core.dll
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\bin\Debug\net8.0\ProjectAPI.Core.pdb
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.csproj.AssemblyReference.cache
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.AssemblyInfoInputs.cache
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.AssemblyInfo.cs
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectA.02870C42.Up2Date
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.dll
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\refint\ProjectAPI.Infrastructure.dll
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.pdb
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.genruntimeconfig.cache
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ref\ProjectAPI.Infrastructure.dll

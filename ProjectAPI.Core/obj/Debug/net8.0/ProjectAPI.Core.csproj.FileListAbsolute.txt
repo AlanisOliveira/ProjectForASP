@@ -1,0 +1,11 @@
+D:\ProjectAPICopia\ProjectAPI.Core\bin\Debug\net8.0\ProjectAPI.Core.deps.json
+D:\ProjectAPICopia\ProjectAPI.Core\bin\Debug\net8.0\ProjectAPI.Core.dll
+D:\ProjectAPICopia\ProjectAPI.Core\bin\Debug\net8.0\ProjectAPI.Core.pdb
+D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ProjectAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ProjectAPI.Core.AssemblyInfoInputs.cache
+D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ProjectAPI.Core.AssemblyInfo.cs
+D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ProjectAPI.Core.csproj.CoreCompileInputs.cache
+D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ProjectAPI.Core.dll
+D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\refint\ProjectAPI.Core.dll
+D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ProjectAPI.Core.pdb
+D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ref\ProjectAPI.Core.dll

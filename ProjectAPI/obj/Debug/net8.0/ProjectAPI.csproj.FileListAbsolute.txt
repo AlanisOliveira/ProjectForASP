@@ -59,3 +59,4 @@ D:\ProjectAPICopia\projectAPI\obj\Debug\net8.0\refint\ProjectAPI.dll
 D:\ProjectAPICopia\projectAPI\obj\Debug\net8.0\ProjectAPI.pdb
 D:\ProjectAPICopia\projectAPI\obj\Debug\net8.0\ProjectAPI.genruntimeconfig.cache
 D:\ProjectAPICopia\projectAPI\obj\Debug\net8.0\ref\ProjectAPI.dll
+D:\ProjectAPICopia\projectAPI\obj\Debug\net8.0\ProjectAPI.sourcelink.json

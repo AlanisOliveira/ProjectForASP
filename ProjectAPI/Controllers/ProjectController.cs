@@ -15,12 +15,8 @@ namespace ProjectAPI.Controllers
     [Route("api/projects")]
     public class ProjectController : ControllerBase
     {
-        private readonly ILogger<ProjectController> _logger;
-
-        public class ProjectsController : ControllerBase
-    {
         private readonly IProjectService _projectService;
-        public ProjectsController(IProjectService projectService)
+        public ProjectController(IProjectService projectService)
         {
             _projectService = projectService;
         }
@@ -110,6 +106,5 @@ namespace ProjectAPI.Controllers
 
             return NoContent();
         }
-    }
-}
+    }   
 }

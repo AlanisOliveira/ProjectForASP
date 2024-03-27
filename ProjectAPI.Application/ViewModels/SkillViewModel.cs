@@ -2,12 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace ProjectAPI.Application.ViewModels
 {
     public class SkillViewModel
     {
-        public SkillViewModel(int id, string description)
+        public SkillViewModel(int id, string description, DateTime createdAt)
         {
             Id = id;
             Description = description;

@@ -1,6 +1,5 @@
 using ProjectAPI.Models;
-using ProjectAPI.Application.Services.Implementations;
-using ProjectAPI.Application.Services.Interfaces;
+using ProjectAPI.Application.Commands.CreateProject;
 using ProjectAPI.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -16,20 +15,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
-builder.Services.AddSingleton<ProjectDbContext>();
+builder.Services.AddDbContext<ProjectDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
-builder.Services.AddScoped<IProjectService, ProjectService>();
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<ISkillService, SkillService>();
-builder.Services.AddScoped<ExampleClass>(e=> new ExampleClass{ Name = "Initial Stage" });
-
+builder.Services.AddMediatR(typeof(CreateProjectCommandHandler).Assembly);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers();

@@ -7,7 +7,7 @@ namespace ProjectAPI.Application.ViewModels
 {
     public class ProjectDetailsViewModel
     {
-        public ProjectDetailsViewModel(int id, string title, string description, decimal totalCost, DateTime? startedAt, DateTime? finishedAt)
+        public ProjectDetailsViewModel(int id, string title, string description, decimal totalCost, DateTime? startedAt, DateTime? finishedAt, string clientFulName, string freelancerFullName)
         {
             Id = id;
             Title = title;
@@ -15,7 +15,10 @@ namespace ProjectAPI.Application.ViewModels
             TotalCost = totalCost;
             StartedAt = startedAt;
             FinishedAt = finishedAt;
+            ClientFullName = clientFulName;
+            FreelancerFullName = freelancerFullName;
         }
+        
         
         public int Id{get; private set;}
         public string Title{get; private set;}
@@ -23,5 +26,7 @@ namespace ProjectAPI.Application.ViewModels
         public decimal TotalCost{get; private set;}
         public DateTime? StartedAt{get; private set;}
         public DateTime? FinishedAt{get; private set;}
+        public string ClientFullName{get; private set;}
+        public string FreelancerFullName{get; private set;}
     }
 }

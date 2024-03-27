@@ -17,7 +17,7 @@ namespace ProjectAPI.Core.Entities
             
             Skills = new List<UserSkill>();
             OwnedProject = new List<Project>();
-            FreelancerProject = new List<Project>();
+            FreelancerProjects = new List<Project>();
 
         }
         public string FullName { get; private set; }
@@ -30,7 +30,8 @@ namespace ProjectAPI.Core.Entities
         public List<UserSkill> Skills { get; private set; }
 
         public List<Project> OwnedProject { get; private set; }
-        public List<Project> FreelancerProject { get; private set; }
+        public List<Project> FreelancerProjects { get; private set; }
+        public List<ProjectComment> Comments { get; private set; }
 
         
     }

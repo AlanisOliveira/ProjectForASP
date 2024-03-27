@@ -17,3 +17,4 @@ D:\ProjectAPICopia\ProjectAPI.Application\obj\Debug\net8.0\refint\ProjectAPI.App
 D:\ProjectAPICopia\ProjectAPI.Application\obj\Debug\net8.0\ProjectAPI.Application.pdb
 D:\ProjectAPICopia\ProjectAPI.Application\obj\Debug\net8.0\ProjectAPI.Application.genruntimeconfig.cache
 D:\ProjectAPICopia\ProjectAPI.Application\obj\Debug\net8.0\ref\ProjectAPI.Application.dll
+D:\ProjectAPICopia\ProjectAPI.Application\obj\Debug\net8.0\ProjectAPI.Application.sourcelink.json

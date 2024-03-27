@@ -1,27 +1,29 @@
+using ProjectAPI.Application.Queries.GetAllSkills;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using ProjectAPI.Application.Services.Interfaces;
+using MediatR;
 
 namespace ProjectAPI.Controllers
 {
     [Route("api/skills")]
     public class SkillsController : ControllerBase
     {
-        private readonly ISkillService _skillService;
-        public SkillsController(ISkillService skillService)
+        private readonly IMediator _mediator;
+        public SkillsController(IMediator mediator)
         {
-            _skillService = skillService;
+            _mediator = mediator;
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            var skills = _skillService.GetAll();
+            var query = new GetAllSkillsQuery();
+
+            var skills = await _mediator.Send(query);
 
             return Ok(skills);
         }

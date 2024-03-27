@@ -4,28 +4,29 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using MediatR;
 using ProjectAPI.Models;
-using ProjectAPI.Application.Services.Interfaces;
-using ProjectAPI.Core.Entities;
-using ProjectAPI.Application.InputModels;
+using ProjectAPI.Application.Commands.CreateUser;
+using ProjectAPI.Application.Queries.GetUser;
 
 namespace ProjectAPI.Controllers
 {
     [Route("api/users")]
     public class UsersController : ControllerBase
     {
-        private readonly IUserService _userService;
-        public UsersController(IUserService userService)
+        private readonly IMediator _mediator;
+        public UsersController(IMediator mediator)
         {
-            _userService = userService;
+            _mediator = mediator;
         }
 
         // api/users/1
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            var user = _userService.GetUser(id);
+            var query = new GetUserQuery(id);
+
+            var user = await _mediator.Send(query);
 
             if (user == null)
             {
@@ -37,11 +38,11 @@ namespace ProjectAPI.Controllers
 
         // api/users
         [HttpPost]
-        public IActionResult Post([FromBody] CreateUserInputModel inputModel)
+        public async Task<IActionResult> Post([FromBody] CreateUserCommand command)
         {
-            var id = _userService.Create(inputModel);
+            var id = await _mediator.Send(command);
 
-            return CreatedAtAction(nameof(GetById), new { id = id }, inputModel);
+            return CreatedAtAction(nameof(GetById), new { id = id }, command);
         }
 
         // api/users/1/login

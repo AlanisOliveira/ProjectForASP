@@ -9,3 +9,4 @@ D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ProjectAPI.Core.dll
 D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\refint\ProjectAPI.Core.dll
 D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ProjectAPI.Core.pdb
 D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ref\ProjectAPI.Core.dll
+D:\ProjectAPICopia\ProjectAPI.Core\obj\Debug\net8.0\ProjectAPI.Core.sourcelink.json

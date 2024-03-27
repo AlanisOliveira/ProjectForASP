@@ -15,3 +15,4 @@ D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\refint\ProjectAPI.
 D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.pdb
 D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.genruntimeconfig.cache
 D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ref\ProjectAPI.Infrastructure.dll
+D:\ProjectAPICopia\ProjectAPI.Infrastructure\obj\Debug\net8.0\ProjectAPI.Infrastructure.sourcelink.json
